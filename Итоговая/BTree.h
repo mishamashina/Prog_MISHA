@@ -3,7 +3,7 @@
 #include <vector>
 #include "tree.h"
 
-struct BTree : public Tree {
+class BTree : public Tree {
 private:
 	node* n;
 	std::vector<int> data;
